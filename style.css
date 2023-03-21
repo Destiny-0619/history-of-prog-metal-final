@@ -1,0 +1,299 @@
+@import url("https://use.typekit.net/mkz3hwe.css");
+@import url("https://use.typekit.net/mkz3hwe.css");
+@import url("https://use.typekit.net/mkz3hwe.css");
+
+* { 
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: white;
+  background: #090809;
+}
+
+p {
+   font-family: usual, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.topnav {
+  text-align: center;
+}
+
+
+nav li {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 10px;
+  font-family: usual, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5em;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+
+}
+
+nav a:hover {
+  background-color: #f8957e;
+  color: #d82343;
+  border-radius: 50px;
+}
+
+header {
+  background-image: url("images/intervals\ \(heading\).jpeg");
+  background-size: cover;
+  height: 75vh;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+header .title {
+  position: absolute;
+  top: 185px;
+  left: 50px;
+}
+
+.title h1 {
+  font-family: recherche, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 55px;
+  margin-bottom: -55px;
+}
+
+.title h2 {
+  font-family: ambroise-std, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 90px;
+}
+
+.title h3 {
+  margin-left: 175px;
+  margin-top: -20px;
+}
+
+.description {
+  background-image: url("images/microphone.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: -280px 0;
+  height: 75vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  align-items: center;
+}
+
+.description-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.section-title {
+  background-color: #404040;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.description-content p {
+  font-family: usual, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  width: 360px;
+}
+
+/* origination section*/
+
+.origination {
+  background-image: url("images/guitar2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  padding: 15px;
+}
+
+.origination-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin: 10px;
+}
+.origination-content p, .origination-content div {
+  width: 360px
+}
+.origination-title {
+
+}
+
+.origination-title h1 {
+    background-color: #404040;
+  padding: 25px;
+  border-radius: 20px;
+  
+}
+
+/*album section*/
+
+.album-title {
+  text-align: center;
+  padding: 75px;
+  color: #cde1eb;
+  background-color: #404040;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 2rem;
+}
+
+.card {
+  display: flex;
+  background: #3a1950;
+  margin-left: 2rem;
+}
+
+.card img {
+  width: 400px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin-bottom: 2rem;
+}
+
+.card > div {
+  padding: 2rem;
+}
+
+.card:nth-child(even) img {
+  order: 2;
+}
+
+.card a {
+  display: inline-block;
+  background: #8e9da4;
+  color: white;
+  padding: 0.8rem 1.8rem;
+  margin-top: 2rem;
+  border-radius: 30px;
+}
+
+.card a:hover {
+  background: #f8957e;
+  color: #d82343;
+}
+
+@media(max-width: 700px) {
+  .card {
+    display: block;
+  }
+}
+
+/*featured bands*/
+
+.bandhead {
+  background-color: #D82343;
+  text-align: center;
+  padding: 40px;
+  font-size: 60px;
+  font-family: recherche, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.7;
+}
+
+.pimg1 {
+  background-image: url("images/polyphia.jpeg");
+  min-height: 400px;
+}
+
+.pimg2 {
+  background-image: url("images/animals\ as\ leaders.jpeg");
+  min-height: 400px;
+}
+
+.pimg3 {
+  background-image: url("images/periphery.jpg");
+  min-height: 400px;
+}
+
+.pimg4 {
+  background-image: url("images/sleep\ token.jpg");
+  min-height: 400px;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-dark {
+  background: #000d33;
+  color: #ccccff;
+}
+
+.section-light {
+  background: #cc99ff;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000099;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  color: #ffe6ff;
+  padding: 20px;
+}
+
+.ptext .border.trans {
+  background-color: transparent;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #8e9da4;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
