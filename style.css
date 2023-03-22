@@ -2,6 +2,7 @@
 @import url("https://use.typekit.net/mkz3hwe.css");
 @import url("https://use.typekit.net/mkz3hwe.css");
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
 
 * { 
   padding: 0;
@@ -64,11 +65,11 @@ header .title {
 }
 
 .title h1 {
-  font-family: recherche, sans-serif;
+  font-family: 'Kurale', serif;
   font-weight: 400;
   font-style: normal;
   font-size: 55px;
-  margin-bottom: -50px;
+  margin-bottom: -30px;
 }
 
 .title h2 {
